@@ -10,7 +10,9 @@ namespace MathStaff
     {
         static void Main(string[] args)
         {
-            
+            string text = " ((((( )))))";
+            Console.WriteLine(AdvancedCalculator.CountAppearance(text,'('));
+            Console.WriteLine(text);
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MathStaff
 {
-    struct Fraction
+    struct Fraction 
     {
         private bool IsNegetive { get; set; }
         private int numerator;
